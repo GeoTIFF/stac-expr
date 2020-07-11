@@ -9,11 +9,16 @@ Bands can be specified by a combination of the unique asset key per the [item-sp
 The Electro-Optical Extension provides a list of common names for referring to bands [here](https://github.com/radiantearth/stac-spec/tree/master/extensions/eo#common-band-names).  For example, `green` when used with Landsat 8 would refer to Lansat 8's 3rd band, which is also the first (and only) band in the B3 asset file.
 
 # examples
-### NDVI for Landsat using Asset Keys
+### NDVI for Landsat 8 using Asset Keys with Band Number
+```
+(B5[0] - B4[0])/(B5[0] + B4[0])
+```
+Because the Landsat 8 Asset GeoTIFFs only have one band, you can remove the `[0]` and the first band will be assumed:
 ```
 (B5 - B4)/(B5 + B4)
 ```
-### NDVI for Landsat using Common Names
+
+### NDVI for Landsat 8 using Common Names
 ```
 (nir - red)/(nir + red)
 ```
