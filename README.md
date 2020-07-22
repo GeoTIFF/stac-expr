@@ -31,6 +31,11 @@ Asset variable names should not be case sensitive.  In other words,
 - ```(B5 - B4)/(B5 + B4)``` is equivalent to ```(b5 - b4)/(b5 + b4)```
 - ```(NIR - RED)/(NIR + RED)``` is equivalent to ```(nir - red)/(nir + red)```
 
+# implementations
+- Marblecutter Fork: https://github.com/DanielJDufour/marblecutter-virtual/blob/STAC/virtual/web.py#L156
+
+# resources
+- https://github.com/developmentseed/stac-tiler
 
 # contribute
 Post an issue [here](https://github.com/GeoTIFF/stac-expr/issues) or submit a PR [here](https://github.com/GeoTIFF/stac-expr/pulls)!
