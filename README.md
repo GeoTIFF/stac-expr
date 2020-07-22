@@ -32,7 +32,7 @@ Asset variable names should not be case sensitive.  In other words,
 - ```(NIR - RED)/(NIR + RED)``` is equivalent to ```(nir - red)/(nir + red)```
 
 # implementations
-- Marblecutter Fork: https://github.com/DanielJDufour/marblecutter-virtual/blob/STAC/virtual/web.py#L156
+- Marblecutter Fork (partial implementation including references by `asset key[band number]`, but not common name): https://github.com/DanielJDufour/marblecutter-virtual/blob/STAC/virtual/web.py#L156
 
 # resources
 - https://github.com/developmentseed/stac-tiler
